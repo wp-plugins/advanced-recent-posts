@@ -51,7 +51,7 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 
 == Changelog ==
 
-== 0.4 ==
+= 0.4 =
 * Added different date and time formats - now date and time format is independent from WP date and time settings
 * The custom months localization was removed
 
