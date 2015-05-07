@@ -2,8 +2,8 @@
 Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 0.4
+Tested up to: 4.2.2
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,12 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.5 =
+* Now you can select one or more categories of displayed posts
+* Now you can rearrange the date and title
+* Now you can display posts in reverse order
+* Fixed some bugs
 
 = 0.4 =
 * Added different date and time formats - now date and time format is independent from WP date and time settings
