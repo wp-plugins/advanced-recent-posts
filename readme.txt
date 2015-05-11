@@ -1,17 +1,24 @@
 === Plugin Name ===
 Contributors: eugenyh
-Tags: widget, posts, plugin, recent, recent posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
+Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 0.5
+Stable tag: 0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin that shows the recent posts with thumbnails in the widget and in other parts of the your blog or theme with shortcodes.
+Plugin that shows the latest posts with thumbnails in the widget and in other parts of the your blog or theme with shortcodes.
 
 == Description ==
 
-Advanced Recent Posts plugin shows the recent posts with thumbnails in two areas:
+**Introducing new feature in 0.6 version: Responsive Grid Layout**
+
+Responsive Grid Layout based on Masonry script and you can insert the new layout in your page or template with shortcode.
+Now Advanced Recent Posts plugin have only one grid layout - based on Medium (300px width) thumbnail size.
+Also you can Feature some posts - they will be show in the grid increased.
+See [live demo](http://demo.lp-tricks.com/recent-posts/responsive-grid-dark/) of the new layout!
+
+Advanced Recent Posts plugin shows the latest posts with thumbnails in two areas:
 
 * widget in your sidebar
 * shortcode in any place of your post or theme.
@@ -21,7 +28,7 @@ Customization of the plugin is wery simple an flexible:
 * Widgets are configured into Dashboard -> Appearance -> Widgets
 * Shortcodes are configured in plugin shortcode builder, you will see it in the admin menu of your WordPress
 
-There are two predefined color schemes (only for basic layout): dark and light, but you can set up your own scheme.
+There are two predefined color schemes (for Basic and Grid layouts): dark and light, but you can set up your own scheme.
 
 Better to see once than read a hundred times - see the [live demo](http://demo.lp-tricks.com/) on my website :)
 
@@ -50,6 +57,9 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6 =
+* New layout (shortcode) - Responsive Grid
 
 = 0.5 =
 * Now you can select one or more categories of displayed posts
