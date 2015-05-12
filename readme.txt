@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 0.6
+Stable tag: 0.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,9 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.1 =
+* Improved mobile version of the Responsive Grid Layout
 
 = 0.6 =
 * New layout (shortcode) - Responsive Grid
