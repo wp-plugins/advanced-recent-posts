@@ -4,7 +4,7 @@ Plugin Name: Advanced Recent Posts
 Plugin URI: http://lp-tricks.com/
 Description: Plugin that shows the recent posts with thumbnails in the widget and in other parts of the your blog or theme with shortcodes.
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
-Version: 0.6
+Version: 0.6.1
 Author: Eugene Holin
 Author URI: http://lp-tricks.com/
 License: GPLv2 or later
@@ -900,10 +900,6 @@ function lptw_display_recent_posts ( $atts ) {
                     $content .= '</div>
                             </a>
                         </header>';
-                    $my_excerpt = get_the_excerpt();
-                    if ( $my_excerpt != '' ) {
-                        $content .= '<content class="post-excerpt"><span>' . $my_excerpt . '</span></content>';
-                    }
                     $content .= '</article>';
                 }
                 else {
