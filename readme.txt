@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: eugenyh
-Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy
+Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 0.6.1
+Stable tag: 0.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,8 @@ There are two predefined color schemes (for Basic and Grid layouts): dark and li
 
 Better to see once than read a hundred times - see the [live demo](http://demo.lp-tricks.com/) on my website :)
 
+Like my plugin? Please, rate :) &#9733;&#9733;&#9733;&#9733;&#9733;
+
 **Contributing**
 
 You can make suggestions and submit your own modifications to this plugin on [Github](https://github.com/eholin/WP-Advanced-Recent-Posts).
@@ -42,7 +44,7 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 
 == Installation ==
 
-1. Upload "lptw-recent-posts" folder to the "/wp-content/plugins/" directory
+1. Upload "advanced-recent-posts" folder to the "/wp-content/plugins/" directory
 1. Activate the plugin through the Plugins menu into WordPress admin area
 1. Use plugin shortcode builder to create a shortcode and use it a in your posts
 1. Add Widgets on your Sidebar into Dashboard -> Appearance -> Widgets
@@ -57,6 +59,9 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.2 =
+* Added Custom Post Types support
 
 = 0.6.1 =
 * Improved mobile version of the Responsive Grid Layout
