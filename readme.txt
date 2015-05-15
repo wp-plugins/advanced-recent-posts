@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 0.6.2
+Stable tag: 0.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,11 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.3 =
+* Added Custom Taxonomies Support
+* Added Color Picker for the background and text color for the Drop Cap Layout
+* Fixed bug with disabled columns in the Shortcode Builder
 
 = 0.6.2 =
 * Added Custom Post Types support
