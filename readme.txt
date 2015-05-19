@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
-Requires at least: 3.0.1
+Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.6.3
+Stable tag: 0.6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,6 +18,8 @@ Now Advanced Recent Posts plugin have only one grid layout - based on Medium (30
 Also you can Feature some posts - they will be show in the grid increased.
 See [live demo](http://demo.lp-tricks.com/recent-posts/responsive-grid-dark/) of the new layout!
 
+In version 0.6.4 added new color scheme (both widgets and shortcode) - natural image colors, without any overlay :) If you choose this scheme - add in files lptw-recent-posts.css or style.css in your theme some styles, read more in the FAQ.
+
 Advanced Recent Posts plugin shows the latest posts with thumbnails in two areas:
 
 * widget in your sidebar
@@ -28,7 +30,7 @@ Customization of the plugin is wery simple an flexible:
 * Widgets are configured into Dashboard -> Appearance -> Widgets
 * Shortcodes are configured in plugin shortcode builder, you will see it in the admin menu of your WordPress
 
-There are two predefined color schemes (for Basic and Grid layouts): dark and light, but you can set up your own scheme.
+There are two predefined color schemes (for Basic and Grid layouts): dark and light, but you can set up your own scheme. Or use natural images.
 
 Better to see once than read a hundred times - see the [live demo](http://demo.lp-tricks.com/) on my website :)
 
@@ -49,6 +51,23 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 1. Use plugin shortcode builder to create a shortcode and use it a in your posts
 1. Add Widgets on your Sidebar into Dashboard -> Appearance -> Widgets
 
+== Frequently Asked Questions ==
+
+= How to show images without any overlay =
+
+In version 0.6.4 added new color scheme (both widgets and shortcode) - natural image colors, without any overlay :) If you choose this scheme - add in files lptw-recent-posts.css or style.css in your theme the following styles:
+
+* .lptw_recent_posts_fluid_images_widget .title-no-overlay - style for header in the widget
+* .lptw_recent_posts_fluid_images_widget .date-no-overlay - style for date in the widget
+* .basic-layout .title-no-overlay - style for header in the Basic layout
+* .basic-layout .date-no-overlay - style for date in the Basic layout
+* .grid-element-no-overlay - style for grid element in the Grid layout, need to set the background color here
+* .grid-layout .title-no-overlay - style for header in the Grid layout
+* .grid-layout .date-no-overlay style for header in the Grid layout
+* .grid-layout .content-no-overlay - style for text in the Grid layout
+* .grid-layout.w3 .title-no-overlay - style for header of the Featured Post in the Grid layout
+* .grid-layout.w3 .date-no-overlay - style for date of the Featured Post in the Grid layout
+
 == Screenshots ==
 
 1. This screenshot shows the settings widget: Recent posts - Fluid images
@@ -59,6 +78,10 @@ Have any ideas or suggestions? Please write me - i will try to make them in the 
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.4 =
+* Added filter by Post authors in the shortcode and widgets
+* Added new color scheme (both widgets and shortcode) - natural image colors, without any overlay
 
 = 0.6.3 =
 * Added Custom Taxonomies Support
