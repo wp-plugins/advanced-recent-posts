@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.6.8
+Stable tag: 0.6.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,11 @@ In version 0.6.4 added new color scheme (both widgets and shortcode) - natural i
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.9 =
+* Added the ability to filter the posts by tags (only in a shortcode, in widgets this ability will be available in the next version). You can include or exclude post by a specific tag or multiple tags. Now only work with posts.
+* Fixed issue with fixed height of a element in mobile version of the Responsive Grid layout.
+* Fixed issue with compatibility with Woocommerce (when columns has the same styles names)
 
 = 0.6.8 = 
 * Fixed issue with incorrect column size in Responsive Grid
