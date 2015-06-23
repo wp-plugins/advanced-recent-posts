@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.6.9
+Stable tag: 0.6.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,16 @@ In version 0.6.4 added new color scheme (both widgets and shortcode) - natural i
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.10 =
+* Added sorting of the posts by the following parameters:
+  * Title
+  * Name (post slug)
+  * Date created
+  * Date modified
+  * Random
+  * Number of comments
+* Fixed issue with incorrect arrange of elements in the Basic Layout
 
 = 0.6.9 =
 * Added the ability to filter the posts by tags (only in a shortcode, in widgets this ability will be available in the next version). You can include or exclude post by a specific tag or multiple tags. Now only work with posts.
