@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.6.10
+Stable tag: 0.6.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,10 @@ In version 0.6.4 added new color scheme (both widgets and shortcode) - natural i
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+= 0.6.11 =
+* Added text color setting for Basic Layout
+* Added text and background color settings for Responsive Grid Layout
 
 = 0.6.10 =
 * Added sorting of the posts by the following parameters:
