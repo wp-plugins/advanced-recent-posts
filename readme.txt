@@ -3,7 +3,7 @@ Contributors: eugenyh
 Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.6.11
+Stable tag: 0.6.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
