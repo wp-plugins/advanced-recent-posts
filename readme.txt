@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: eugenyh
-Tags: widget, posts, plugin, recent, recent posts, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
+Tags: widget, posts, plugin, recent, recent posts, video, latest, latest posts, shortcode, thumbnail, thumbnails, categories, content, featured image, Taxonomy, custom post type, custom
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 0.6.11
+Tested up to: 4.2.3
+Stable tag: 0.6.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,12 +11,9 @@ Plugin that shows the latest posts with thumbnails in the widget and in other pa
 
 == Description ==
 
-**Introducing new feature in 0.6 version: Responsive Grid Layout**
+**Introducing new feature in 0.6.13 version: the embedded video instead of the Post Featured Image**
 
-Responsive Grid Layout based on Masonry script and you can insert the new layout in your page or template with shortcode.
-Now Advanced Recent Posts plugin have only one grid layout - based on Medium (300px width) thumbnail size.
-Also you can Feature some posts - they will be show in the grid increased.
-See [live demo](http://demo.lp-tricks.com/recent-posts/responsive-grid-dark/) of the new layout!
+You can use the embedded video (first movie) instead of the Post Featured Image in Responsive Grid Layout. If you have any ideas about this feature or it work not properly, please write me in special topic on <a href="https://wordpress.org/support/topic/new-feature-in-0613-the-embedded-video-instead-of-the-post-featured-image" target="_blank">Support Forum</a>'
 
 In version 0.6.4 added new color scheme (both widgets and shortcode) - natural image colors, without any overlay :) If you choose this scheme - add in files lptw-recent-posts.css or style.css in your theme some styles, read more in the FAQ.
 
@@ -78,6 +75,11 @@ In version 0.6.4 added new color scheme (both widgets and shortcode) - natural i
 6. This is result of shortcode on the website
 
 == Changelog ==
+
+## 0.6.13
+* Added embedded video support. Now embedded video can be displayed instead of Featured Image in Responsive Grid Layout
+* Fixed bug with styles and scripts in Widgets Management
+* Fixed issue with disappearing the link to another plugin in WordPress Menu
 
 = 0.6.12 =
 * Added the Post Excerpt settings: now you can show or hide an Excerpt of all Posts in the Responsive Grid, also you can set the Post Excerpt lenght and use or ignore &lt;!-- more --&gt; tag.
