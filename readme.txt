@@ -13,7 +13,9 @@ Plugin that shows the latest posts with thumbnails in the widget and in other pa
 
 **Introducing new feature in 0.6.13 version: the embedded video instead of the Post Featured Image**
 
-You can use the embedded video (first movie) instead of the Post Featured Image in Responsive Grid Layout. If you have any ideas about this feature or it work not properly, please write me in special topic on <a href="https://wordpress.org/support/topic/new-feature-in-0613-the-embedded-video-instead-of-the-post-featured-image" target="_blank">Support Forum</a>'
+You can use the embedded video (first movie) instead of the Post Featured Image in Responsive Grid Layout. This feature is experimental and now the plugin support Youtube video only. If you have any ideas about this feature or it work not properly, please write me in special topic on [Support Forum](https://wordpress.org/support/topic/new-feature-in-0613-the-embedded-video-instead-of-the-post-featured-image).
+
+See the [live demo of this feature](http://demo.lp-tricks.com/recent-posts/responsive-grid-light/).
 
 In version 0.6.4 added new color scheme (both widgets and shortcode) - natural image colors, without any overlay :) If you choose this scheme - add in files lptw-recent-posts.css or style.css in your theme some styles, read more in the FAQ.
 
@@ -76,7 +78,7 @@ In version 0.6.4 added new color scheme (both widgets and shortcode) - natural i
 
 == Changelog ==
 
-## 0.6.13
+= 0.6.13 =
 * Added embedded video support. Now embedded video can be displayed instead of Featured Image in Responsive Grid Layout
 * Fixed bug with styles and scripts in Widgets Management
 * Fixed issue with disappearing the link to another plugin in WordPress Menu
